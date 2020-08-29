@@ -7,6 +7,6 @@ A proof of concept git like version control. Digging deep on how it works
 - [ ] need to display a comprehensive history of every -save just like in the real git where you can view the previous commits and the changes done with the file. 
 
 ### commands
-* pseudo.py -save /filename	: much like commit -a	
-* pseudo.py -edit /filename	: much like when editing a file 
-* pseudo.py -history		: much like viewing commit history
+* ./pseudo.py -action save	: much like commit -a	
+* ./pseudo.py -action edit	: much like when editing a file 
+* ./pseudo.py -action history	: much like viewing commit history
